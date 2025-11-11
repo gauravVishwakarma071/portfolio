@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gaurav Vishwakarma — Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Gaurav Vishwakarma — Java & Android Developer. MCA student. Projects: Chat Box, Stream Well, Music Player.">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container bar">
+      <div class="brand">
+        <div class="logo">G</div>
+        <div class="brand-text">
+          <h1>Gaurav Vishwakarma</h1>
+          <p class="muted">Java • Android • Full‑Stack (MCA Student)</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h2 class="name">Gaurav <span class="ln">Vishwakarma</span></h2>
+          <h3 class="tagline"><span id="typing"></span></h3>
+          <p class="lead">MCA final‑year student with strong expertise in Advanced Java, OOP, Multithreading and Android app development. Currently building web skills with Spring Boot and modern front-end tech. I build clean, maintainable apps and enjoy learning distributed systems and backend APIs.</p>
+
+          <p class="actions">
+            <a class="btn primary" href="GAURAV VISHWAKARMA.pdf" download>Download Resume</a>
+            <a class="btn outline" href="#contact">Contact Me</a>
+          </p>
+
+          <div class="quick-links">
+            <a href="https://github.com/gauravVishwakarma071" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/gaurav-vishwakarma-a64463255/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-right card profile-card">
+          <!-- Add your photo URL or file path inside src="" -->
+          <img id="profile-photo" src="" alt="Gaurav Vishwakarma" />
+          <div class="profile-info">
+            <h4>Quick Info</h4>
+            <ul>
+              <li><strong>Location:</strong> Jaunpur, Uttar Pradesh, India</li>
+              <li><strong>Current:</strong> MCA (Veer Bahadur Singh Purvanchal University)</li>
+              <li><strong>CGPA:</strong> 7.80 (MCA), 7.9 (BCA)</li>
+              <li><strong>Email:</strong> vishwakarmagaurav013@gmail.com</li>
+              <li><strong>Open to:</strong> Intern / Junior Java / Android roles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden>
+        <span></span>
+      </div>
+    </section>
+
+    <section id="about" class="section alt-bg">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>I graduated with a <strong>BCA</strong> and am currently pursuing <strong>MCA</strong>. My core strengths are Advanced Java, Android app development, concurrency, and OOP principles. I have built apps with Firebase and integrated real‑time streaming using ZEGOCLOUD. Lately I am learning Spring Boot, REST APIs and modern front-end practices. I enjoy solving problems, reading clean code, and building features that users love.</p>
+
+            <p><strong>Projects include:</strong> Chat Box (Firebase chat with OTP), Stream Well (live streaming app), Music Player (internship project). I publish code on GitHub and keep improving project documentation.</p>
+          </div>
+
+          <aside class="facts card">
+            <h4>Technical Summary</h4>
+            <p><strong>Languages:</strong> Java, Kotlin, JavaScript, Python, SQL</p>
+            <p><strong>Frontend:</strong> HTML, CSS, JavaScript (Learning React)</p>
+            <p><strong>Backend:</strong> Spring Boot (learning), REST APIs, Firebase</p>
+            <p><strong>Tools:</strong> Git, GitHub, Maven, Gradle, Postman</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill"><h4>Languages</h4><p>Java · Kotlin · JavaScript · Python · SQL</p></div>
+          <div class="skill"><h4>Frontend</h4><p>HTML · CSS · JavaScript · React (learning)</p></div>
+          <div class="skill"><h4>Backend</h4><p>Spring Boot · REST APIs · Firebase</p></div>
+          <div class="skill"><h4>Other</h4><p>Git · Maven · Gradle · Postman</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt-bg">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="edu-item card">
+            <div class="edu-head"><strong>MCA (Master of Computer Applications)</strong><span class="muted">2024 - 2026</span></div>
+            <div class="edu-body">
+              <p><strong>Veer Bahadur Singh Purvanchal University</strong>, Jaunpur, UP</p>
+              <p><strong>CGPA:</strong> 7.80</p>
+              <p><strong>Key courses:</strong> Java-OOPs, DSA, DBMS, Web Technologies, AI-ML, Software Engineering</p>
+            </div>
+          </div>
+
+          <div class="edu-item card">
+            <div class="edu-head"><strong>BCA (Bachelor of Computer Application)</strong><span class="muted">2020 - 2023</span></div>
+            <div class="edu-body">
+              <p><strong>Veer Bahadur Singh Purvanchal University</strong>, Jaunpur, UP</p>
+              <p><strong>CGPA:</strong> 7.9</p>
+              <p><strong>Key courses:</strong> Programming, Operating Systems, Computer Networks, Computer Organization, DBMS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="h-scroll" id="projects-scroll" tabindex="0" aria-label="Projects carousel">
+          <!-- repeat this project-card block to add more -->
+          <article class="project-card card">
+            <h3>Chat Box</h3>
+            <p>Real-time Android chat using Firebase with OTP-based authentication and Firestore for message storage.</p>
+            <p class="stack">Java · Firebase · Android SDK</p>
+            <p class="links"><a href="https://github.com/gauravVishwakarma071/ChatBox" target="_blank">Source</a></p>
+          </article>
+
+          <article class="project-card card">
+            <h3>Stream Well</h3>
+            <p>Live streaming Android app built with ZEGOCLOUD for real-time streaming features and low-latency.</p>
+            <p class="stack">Java · ZEGOCLOUD · Android SDK</p>
+            <p class="links"><a href="https://github.com/gauravVishwakarma071/Stream-well" target="_blank">Source</a></p>
+          </article>
+
+          <article class="project-card card">
+            <h3>Music Player</h3>
+            <p>Music player built during internship with playlist management and UI customization.</p>
+            <p class="stack">Java · Android SDK</p>
+            <p class="links"><a href="https://github.com/gauravVishwakarma071/CodeClauseIntership_MusicPlayer" target="_blank">Source</a></p>
+          </article>
+
+          <!-- Add more project-card articles below -->
+        </div>
+        <p class="hint muted">Tip: You can add more projects by copying a <code class="inline-code">&lt;article class="project-card card"&gt;...&lt;/article&gt;</code> into the container above. Horizontal scroll supports touch and mouse.</p>
+      </div>
+    </section>
+
+    <section id="certificates" class="section alt-bg">
+      <div class="container">
+        <h2>Certificates (Demo)</h2>
+        <div class="h-scroll" id="certs-scroll" tabindex="0" aria-label="Certificates carousel">
+          <article class="cert-card card">
+            <h4>Android Development — Codeclause</h4>
+            <p>Completion certificate — Aug 2023</p>
+            <p class="links"><a href="#" target="_blank">View Certificate</a></p>
+          </article>
+
+          <article class="cert-card card">
+            <h4>Java & OOPs — Demo Platform</h4>
+            <p>Issued: Nov 2023</p>
+            <p class="links"><a href="#" target="_blank">View Certificate</a></p>
+          </article>
+
+          <article class="cert-card card">
+            <h4>Firebase Essentials — Demo</h4>
+            <p>Issued: Oct 2023</p>
+            <p class="links"><a href="#" target="_blank">View Certificate</a></p>
+          </article>
+        </div>
+        <p class="hint muted">Replace demo links with real certificate URLs whenever you're ready.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <form id="contact-form" class="card contact-card" onsubmit="return sendMail()" method="get" action="mailto:vishwakarmagaurav013@gmail.com">
+            <label>Name<input type="text" id="name" required></label>
+            <label>Email<input type="email" id="email" required></label>
+            <label>Message<textarea id="message" rows="4" required></textarea></label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Email</button>
+              <button type="button" class="btn" id="copy-email">Copy Email</button>
+            </div>
+          </form>
+
+          <aside class="card contact-info">
+            <h4>Get in touch</h4>
+            <p class="muted">Email: vishwakarmagaurav013@gmail.com</p>
+            <p class="muted">Phone: +91 9889384863</p>
+            <p class="muted">Location: Jaunpur, UP, India</p>
+            <p>Find me on <a href="https://github.com/gauravVishwakarma071" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/gaurav-vishwakarma-a64463255/" target="_blank">LinkedIn</a>.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Gaurav Vishwakarma — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
